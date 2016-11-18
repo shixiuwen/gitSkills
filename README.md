@@ -48,7 +48,7 @@ The key's randomart image is:
 
  > git init
 
- > PS：该步骤执行完之后不可执行git add .   ->   git commit ,如果执行了，则在本地初始化master分支，该分支会和origin/master分支冲突
+ > PS：该步骤执行完之后不可执行以下两步： 1.git add .   ->   2.git commit -m "",如果执行了，则在本地初始化master分支，该分支会和origin/master分支冲突
 
 4. 将本地库同GitHub上的库关联
 
@@ -59,6 +59,7 @@ The key's randomart image is:
  执行git branch 你会发现本地没有branch分支，继续执行
 
  > git fetch
+ 
  > git checkout –b master origin/master（该步骤可能提示如.gitignore等的文件冲突，如果有，删除本地的或者服务器上的文件）
 
  同步远程master分支到本地，本地就有了和远程库关联的master分支，接下来可以执行提交代码操作了
@@ -74,16 +75,20 @@ The key's randomart image is:
 6.	进行代码修改后提交代码
 
  > git add .
+ 
  > git commit –m “在分支上提交操作”
 
 7.	切换回主分支拉最新代码：
 
  > git checkout master
+ 
  > git pull
 
 8.	切回jrw分支合并主分支master可能被他人修改后的代码
 
  > git checkout jrw
+ 
  > git merge master(该步骤执行完后可能会有冲突，有冲突的话执行git add . git commit )
+ 
  > git push origin jrw（这是在提交合并请求，执行完该步骤之后去GitHub执行push request 然后等待主分支接受合并） 
 
