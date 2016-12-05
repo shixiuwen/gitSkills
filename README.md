@@ -11,18 +11,18 @@ Enter same passphrase again:
 Your identification has been saved in /c/Users/Administrator/.ssh/id_rsa.
 Your public key has been saved in /c/Users/Administrator/.ssh/id_rsa.pub.
 The key fingerprint is:
-SHA256:TLFdjTxp91rIOV7N9/+KIz3bwZejOmpWrevjypAf1SY shixiuwen1991@yeah.net
+SHA256:*************************************** shixiuwen1991@yeah.net
 The key's randomart image is:
 +---[RSA 2048]----+
-|        .  ..+   |
-|         + .* o  |
-|        o .. + =.|
+|        .  ***   |
+|         +.....  |
+|        o..... =.|
 |       o    . = B|
-|        S  E.+ =o|
-|        . ..ooo o|
-|       o .... ooo|
-|        +oo++o.oo|
-|        o==*B=o.o|
+|        *********|
+|        . ..... o|
+|       o ..****oo|
+|        +********|
+|        *********|
 +----[SHA256]-----+
 
 ```
